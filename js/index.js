@@ -81,10 +81,10 @@ var SUBCULTURE = (function () {
     // We have a low percentage chance
     // to take on a prefix.
     if(randomNum(100) < 15) {
-      subculture.prefix = subPrefix[randomNum(0, subPrefix.length - 1)];
+      subculture.prefix = subPrefix[randomNum(0, subPrefix.length)];
     }
     // Get our index for the adjective array.
-    var adjectiveIndex = randomNum(0, subAdj.length - 1);
+    var adjectiveIndex = randomNum(0, subAdj.length);
     // Now we have to have at least 1
     // adjective describing the type, and
     // go ahead and push the result to subculture.adj
@@ -96,12 +96,12 @@ var SUBCULTURE = (function () {
       // adjective already in the subculture object, generate
       // a new index!
       while(subculture.adj[0] === subAdj[adjectiveIndex]) {
-        adjectiveIndex = randomNum(0, subAdj.length - 1);
+        adjectiveIndex = randomNum(0, subAdj.length);
       }
       subculture.adj.push(subAdj[adjectiveIndex]);
     }
     // Now generate the type for the subculture.
-    subculture.type = subType[randomNum(0, subType.length - 1)];
+    subculture.type = subType[randomNum(0, subType.length)];
   };
   // This function will update the front end to let the user
   // know a new subculture has been generated.
