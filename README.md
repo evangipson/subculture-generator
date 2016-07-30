@@ -1,6 +1,8 @@
 # Subculture Generator
 This program, written mostly in javascript, will generate a new and unique subculture for you to adhere to!
 
+![alt tag](http://evangipson.com/subcultures/img/subculture-screen.png "A screenshot of a typical subculture generator result.")
+
 | Subculture Generator Readme |
 |---|
 | [Getting Started](#getting-started) |
