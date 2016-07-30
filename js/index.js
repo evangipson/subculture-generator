@@ -67,7 +67,7 @@ var SUBCULTURE = (function () {
       "bohemian",
       "juggalo",
       "goth",
-      "mom",
+      "soccer mom",
       "furry",
       "frat dad",
       "k-popper",
