@@ -1,0 +1,32 @@
+body {
+    padding: 1rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+footer p:last-child {
+    margin-right: none;
+}
+a {
+    cursor: pointer;
+    padding: 0 .25rem;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+a:hover {
+    color: white;
+    background: rgba(0,0,0,0.75);
+    border-bottom: 2px solid black;
+}
