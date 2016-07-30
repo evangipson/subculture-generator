@@ -75,7 +75,8 @@ var SUBCULTURE = (function () {
       "trekkie",
       "evangelist",
       "couponer",
-      "lolita"
+      "lolita",
+      "vegan"
     ];
     // We have a low percentage chance
     // to take on a prefix.
