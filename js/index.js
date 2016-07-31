@@ -80,7 +80,7 @@ var SUBCULTURE = (function () {
     ];
     // We have a low percentage chance
     // to take on a prefix.
-    if(randomNum(100) < 15) {
+    if(randomNum(100) < 20) {
       subculture.prefix = subPrefix[randomNum(0, subPrefix.length)];
     }
     // Get our index for the adjective array.
@@ -91,13 +91,17 @@ var SUBCULTURE = (function () {
     subculture.adj.push(subAdj[adjectiveIndex]);
     // And a very low chance we'll have
     // two adjectives.
-    if(randomNum(100) < 10) {
-      // If the selected adjective is the same as the
+    if(randomNum(100) < 15) {
+      // Get a new adjective index.
+      adjectiveIndex = randomNum(0, subAdj.length);
+      // If the new adjective is the same as the
       // adjective already in the subculture object, generate
       // a new index!
       while(subculture.adj[0] === subAdj[adjectiveIndex]) {
         adjectiveIndex = randomNum(0, subAdj.length);
       }
+      // Then push the resulting adjective into
+      // the subculture object also.
       subculture.adj.push(subAdj[adjectiveIndex]);
     }
     // Now generate the type for the subculture.
