@@ -36,7 +36,7 @@ For instance, the first stable build of Subculture Generator is [1.0.0](https://
 
 ## Authors
 * **Evan Gipson** - *[Evan's Github Page](https://github.com/evangipson)* 
-* **Chris Carroll**
+* **Chris Novus** - *[Chris' website](http://chrisnovus.com/)*
 * **Fabiana Melendez**
 * **Chelsia Johnson**
 
